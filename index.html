@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Person | Postbird - There I am , in the world more exciting!</title>
+<link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" href="css/index.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<style>
+.section { text-align: center; font: 15px "Microsoft Yahei"; color: #000000;}
+</style>
+	<script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+$(function(){
+	$('#dowebok').fullpage({
+		sectionsColor: ['#f9f9f9', '#f9f9f9', '#f9f9f9', '#f9f9f9'],
+		controlArrowColor:'#ccc',
+		'css3':true,
+		'navigation': true,
+		'navigationTooltips':true,
+		'continuousVertical':true,
+		'keyboardScrolling':true,
+		'resize':true,
+	});
+
+	$(window).resize(function(){
+		autoScrolling();
+	});
+	function autoScrolling(){
+		var $ww = $(window).width();
+		if($ww < 1024){
+			$.fn.fullpage.setAutoScrolling(false);
+		} else {
+			$.fn.fullpage.setAutoScrolling(true);
+		}
+	}
+	autoScrolling();
+});
+</script>
+</head>
+<body>
+<div id="dowebok">
+	<div class="section">
+		<img src="./images/logo.png" width="150px" alt="logo">
+		<h3 class="title">Postbird</h3>
+		<h4 class="title">There I am , in the world more exciting!</h4>
+		<h4 class="title"><a href="./index.html">English</a><font> | </font><a href="./index.html">简体中文</a></h4>
+	</div>
+	<div class="section ">
+		<div class="container">
+			<div class="row">
+				<div class="content page-header">
+					<h1>信息</h1>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4 visible-lg ">
+						<i class="visible-lg fa fa-user-secret fa-2x pull-right"></i>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						 <h3>李瞻文</h3>
+					</div>
+					<div class="col-md-4 visible-lg ">
+						&nbsp;
+					</div>
+				</div>
+				<div class="col-md-12">
+					<hr>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4 visible-lg">
+						<i class="visible-lg fa fa-graduation-cap fa-2x pull-right"></i>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<h3>东华大学 <small>2014级 松江校区</small></h3>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<hr>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4 visible-lg">
+						<i class="visible-lg fa fa-laptop fa-2x pull-right">  </i>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<h3>信息安全专业 <small>计算机科学与技术学院</small></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<h1 >技能</h1>
+				<p>The more effort , the more lucky</p>
+				<div class="col-md-12">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4 col-xs-12">
+						<i class="fa fa-check"></i>   <span>PHP&ThinkPHP</span>
+					</div>
+					<div class="col-md-8 col-xs-12">
+						<div class="progress " >
+							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								<span >80%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4 col-xs-12">
+						<i class="fa fa-check"></i>   <span>Mysql</span>
+					</div>
+					<div class="col-md-8 col-xs-12">
+						<div class="progress  " >
+							<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+								<span >70%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4 col-xs-12">
+						<i class="fa fa-check"></i>   <span>Html(5)&Css(3)&jquery&Bootstrap</span>
+					</div>
+					<div class="col-md-8 col-xs-12">
+						<div class="progress  " >
+							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								<span >80%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4 col-xs-12">
+						<i class="fa fa-check"></i>   <span>c/c++</span>
+					</div>
+					<div class="col-md-8 col-xs-12">
+						<div class="progress  " >
+							<div class="progress-bar progress-bar-default" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+								<span >70%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4 col-xs-12">
+						<i class="fa fa-external-link"></i>   <span>Other</span>
+					</div>
+					<div class="col-md-8 col-xs-12">
+						目前学习大数据与云计算，熟悉javase，熟悉hadoop生态系统，学习方向为scala与spark（正在）……
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+	<div class="container">
+		<div class="row">
+			<h1 class="">履历</h1>
+			<p>There I am , in the world more exciting!</p>
+			<hr>
+			<div class="col-md-12  col-xs-12">
+				<h4>东华大学开源软件协会会长 [ 2015-2016]</h4>
+				<hr>
+				<h4>开源社（中国）个人成员</h4>
+				<hr>
+				<h4>中国计算机学会（ccf）学生会员</h4>
+				<hr>
+				<h4>ccf宣传员[ 2016-2017 ]</h4>
+				<hr>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<h1 class="">获奖</h1>
+				<p>There I am , in the world more exciting!</p>
+				<hr>
+				<div class="col-md-12 col-xs-12">
+					<h4>2012全国奥林匹克信息学竞赛三等奖</h4>
+					<hr>
+					<h4>第八届全国大学计算机设计大赛二等奖</h4>
+					<hr>
+					<h4>第八届上海市大学生计算机应用能力大赛二等奖</h4>
+					<hr>
+					<h4>第九届全国大学计算机设计大赛一等奖</h4>
+					<hr>
+					<h4>国家单项奖学金</h4>
+					<hr>
+					<h4>东华大学社会工作优秀奖学金</h4>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<h1 class="">实习</h1>
+				<p>There I am , in the world more exciting!</p>
+				<hr>
+				<div class="col-md-2 visible-lg"></div>
+				<div class="col-md-8" style="text-indent:2em;">
+					<h4>于[ 2016.3-2016.9 ]在中科院上海辰山植物科研中心（生物多样性信息中心）实习,主要工作为前端开发&前后台衔接工作，实习期间参与iBiodiversity 生物多样性 e-Science 云平台的建设。</h4>
+					<hr>
+				</div>
+				<div class="col-md-2 visible-lg"></div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<h1 class="">作品</h1>
+				<p>There I am , in the world more exciting!</p>
+				<hr>
+				<div class="col-md-12 col-md-12">
+					<h4>因网站迁移，作品请移步< <a href="http://work.ptbird.cn" target="_blank">http://work.ptbird.cn</a> ></h4>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<h1 class="">联系</h1>
+				<p>There I am , in the world more exciting!</p>
+				<div class="col-md-12 col-xs-12">
+					<div class="col-md-12 col-xs-12">
+						<hr>
+					</div>
+					<div class="col-md-4 col-xs-12 text-right">
+						<i class="fa fa-envelope-o fa-2x ">  </i>
+					</div>
+					<div class="col-md-8 col-xs-12 text-center">
+						<h4><a href="mailto:ptbird@yeah.net?subject=feedback">ptbird@yeah.net</a></h4>
+					</div>
+
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<hr>
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<div class="col-md-4 col-xs-12 text-right">
+						<i class="fa fa-comments fa-2x ">  </i>
+					</div>
+					<div class="col-md-8 col-xs-12 text-center">
+						<h4>592312697 <small>(微信搜索)</small></h4>
+					</div>
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<hr>
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<div class="col-md-4 col-xs-12 text-center">
+						<a class="link"href="http://www.ptbird.cn">博客</a>
+					</div>
+					<div class="col-md-4 col-xs-12 text-center">
+						<a class="link"href="http://work.ptbird.cn">作品</a>
+					</div>
+					<div class="col-md-4 col-xs-12 text-center">
+						<a class="link"href="http://person.ptbird.cn">个人</a>
+					</div>
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<hr>
+				</div>
+				<div class="col-md-12 text-center col-xs-12">
+					<img src="./images/wechat.png" height="150" width="150" alt="wechat">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
